@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0.25turn, rgb(101, 101, 195), rgb(3, 181, 181) );
+    flex-direction: column;
+}
+
+
+svg {
+    background-color: aliceblue;
+}
+
+#title {
+    color: black(249, 128, 83);
+    font-weight: bold;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.496);
+}
+
+p:hover {
+    color: black;
+}
+
+.dot:hover {
+    fill: rgb(115, 219, 115);
+    r: 5;
+    cursor: pointer;
+}
+
+#yes {
+    color: rgba(255, 166, 0, 0.522);
+}
+
+#no {
+    color: rgba(0, 0, 255, 0.549);
+}
+
+#yes:hover {
+    color: orange;
+}
+
+#no:hover {
+    color: blue;
+}
+
+.doping-headers {
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: -300px;
+    margin-right: -350px;
+}
+
+#tooltip {
+    font-weight: bold;
+    position: absolute;
+    font-size: 10px;
+    text-align: center;
+    visibility: hidden;
+    height: -600px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
