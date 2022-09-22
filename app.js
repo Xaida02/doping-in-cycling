@@ -70,7 +70,9 @@ fetch(url)
                     tooltip.style("visibility", "hidden")
                   })
                   .on("click", (event, item) => {
-                     window.open(item.URL, '_blank')
+                     if(item.URL) {
+                        window.open(item.URL, '_blank')
+                     }
                   })
 
             // generate axis
